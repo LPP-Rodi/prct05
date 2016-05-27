@@ -1,12 +1,11 @@
 # Práctica 5 LPP
 
-Desarrollo de pruebas unitarias para la clase factorial.
+Desarrollo de pruebas unitarias con TestCase para la clase fraccionario.
 
 Herramientas de desarrollo
 
 + Rakefile
 + Bundler
-+ Rspec
 
 
 ## Installation
