@@ -7,4 +7,10 @@ require_relative "prct05/version"
       @num = numerador
       @den = denominador
     end
+
+    def suma_fraccionario(numero)
+      raise ArgumentError, "El argumento no es un número fraccionario" unless numero.is_a? (Fraccionario)
+      @num += numero.num
+      @den += numero.den
+    end
   end
